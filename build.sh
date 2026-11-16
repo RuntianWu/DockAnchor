@@ -47,7 +47,7 @@ cat > "$APP_DIR/Contents/Info.plist" <<EOF
     <key>LSMinimumSystemVersion</key>
     <string>13.0</string>
     <key>NSHumanReadableCopyright</key>
-    <string>© Micropeptide</string>
+    <string>© Runtian Wu</string>
 </dict>
 </plist>
 EOF

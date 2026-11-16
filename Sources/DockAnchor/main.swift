@@ -20,10 +20,10 @@ enum AppInfo {
     static var version: String {
         Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0.0"
     }
-    static let githubRepo = "Micropeptide/DockAnchor"
+    static let githubRepo = "RuntianWu/DockAnchor"
     static let repoURL = URL(string: "https://github.com/\(githubRepo)")!
-    static let authorName = "Micropeptide"
-    static let authorURL = URL(string: "https://github.com/Micropeptide")!
+    static let authorName = "Runtian Wu"
+    static let authorURL = URL(string: "https://github.com/RuntianWu")!
 }
 
 func screenDisplayID(_ screen: NSScreen) -> CGDirectDisplayID {
